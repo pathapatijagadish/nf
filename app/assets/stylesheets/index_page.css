@@ -1,0 +1,152 @@
+body{
+	background:url(/assets/body-bg6.jpg);
+	background-size: 100% 100%;
+	font-family: "Open Sans","Lucida Grande",arial,sans-serif;
+}
+
+div.form-actions{
+	background-color: lightgrey;
+}
+
+input[type="text"], textarea {
+
+  	background-color: lemonchiffon;
+  	width: 250px;
+}
+
+.control-label{	
+	color: rgb(237, 237, 240);
+}
+
+.new_edit_form {
+	background-color: rgba(102, 141, 127, 1);
+	border-color: lightgrey;
+	padding:13px 22px;
+	/*margin:25px 50px 75px 100px;*/
+	background: url(/assets/body-bg12.jpg) no-repeat;
+	background-size: 100% 100%;
+	border: 1px solid gray;
+	border-radius: 2px 30px 2px 30px;
+	width: 60%;
+	margin: auto;
+}
+.index {
+ 	/*background-color:rgba(102, 141, 127, 1);*/
+ 	border-color: lightgrey;
+ 	padding:13px 22px 300px 60px;
+ 	/*margin:25px 50px 75px 50px;*/
+ 	margin: auto;
+ 	height: 80%;
+ 	width: 80%;
+}
+
+ 
+.navbar .nav > li > a{
+	color: lightgrey;
+}
+
+.brand{
+	 pointer-events: none;
+}
+
+.imgrow{
+	background:url(/assets/body-bg10.jpg) no-repeat;
+	float: left;
+	width: 23%;
+	background: transparent;
+	border: 2px dashed gray;
+	padding: 15px;
+	margin: 0px 70px 20px 0px ;
+	height: 350px;
+	border-radius: 0px 20px 0px 20px;
+}
+
+
+.imgrow a:hover{
+	background: transparent;
+	color: blue;
+}
+
+.imgrow:hover {
+	background: #47a877;
+}
+
+.imgrow img{
+	width: 99%;
+	height: 80%;
+	border-radius: 0px 0px 0px 0px;
+	border: 1px solid lightblue;
+}
+
+.outer_image{
+	padding: 25px;
+	background: url(/assets/body-bg13.jpg);
+}
+
+.imgrow .info-block {
+	display: inline-block;
+	background: #b4d3f2;
+	padding: 5px 2%;
+	width: 95%;
+	color: coral;
+	letter-spacing: 1px;
+	border: 1px solid #bbb;
+	border-top: none;
+	border-radius: 0px 0px 0px 0px;
+}
+
+.blocks-main {
+	width:100%;
+	/*margin-left:50px;*/
+}
+
+.new_edit_form .page-header {
+	border-bottom: 1px dotted #af5;
+}
+
+.page-header {
+	border-bottom: 1px dotted #d76;
+}
+
+.page-header h1 {
+	color: brown;
+	text-shadow: 2px 2px #52a459;
+}
+
+ul.nav li a:hover {
+	background-color: lightblue !important;
+	font-size: 15px;
+}
+
+.btn-primary{
+	background: green !important;
+}
+
+.new_edit_form .mce-tinymce.mce-container.mce-panel {
+	width: 550px;
+}
+
+.new_edit_form .control-group .fields {
+	border: 1px dotted lightblue;
+	padding:5px 20px;
+	margin-bottom: 10px;
+}
+
+.close-btn {
+	/*background: url("/assets/images/close-btn.png");*/
+	border: 3px solid red;
+}
+
+
+.fbtns{
+	margin-left: 50px;
+	float:left;
+}
+
+.question-del {
+	float:right; 
+}
+
+.title_footer{
+	padding-top:5px;
+}
